@@ -1,12 +1,13 @@
 
 <!DOCTYPE html>
-<html lang="ar" dir="rtl">
+
+<html dir="rtl" lang="ar">
 <head>
-    <meta charset="UTF-8">
-    <title>مؤسسة ذيب</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Cairo&display=swap" rel="stylesheet">
-    <style>
+<meta charset="utf-8"/>
+<title>مؤسسة ذيب</title>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="https://fonts.googleapis.com/css2?family=Cairo&amp;display=swap" rel="stylesheet"/>
+<style>
         * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Cairo', sans-serif; }
         body {
             background-color: #4e342e; color: #ffd700;
@@ -62,26 +63,26 @@
     </style>
 </head>
 <body>
-    <video autoplay muted loop playsinline class="background">
-        <source src="background.mp4" type="video/mp4">
-    </video>
-    <div class="overlay"></div>
-    <header id="main-title">مؤسسة ذيب</header>
-    <nav id="nav-links">
-        <a href="الرئيسية.html">الرئيسية</a>
-        <a href="دليل المذيع.html">دليل المذيع</a>
-        <a href="الترقيات.html">الترقيات</a>
-        <a href="الفواتير.html">الفواتير</a>
-        <a href="الفاعليات.html">الفاعليات</a>
-        <a href="https://a7medras.github.io/entertainment-site/index.html" target="_blank">ترفيه</a>
-        <a href="كود الدعوة.html">كود الدعوة</a>
-        <a href="ألعاب.html">ألعاب</a>
-    </nav>
-    <div class="controls">
-        <button onclick="toggleDarkMode()">🌓 الوضع</button>
-        <button onclick="toggleLanguage()">🌐 اللغة</button>
-    </div>
-    <script>
+<video autoplay="" class="background" loop="" muted="" playsinline="">
+<source src="background.mp4" type="video/mp4"/>
+</video>
+<div class="overlay"></div>
+<header id="main-title">مؤسسة ذيب</header>
+<nav id="nav-links">
+<a href="الرئيسية.html">الرئيسية</a>
+<a href="دليل المذيع.html">دليل المذيع</a>
+<a href="coming-soon.html">الترقيات</a>
+<a href="coming-soon.html">الفواتير</a>
+<a href="coming-soon.html">الفاعليات</a>
+<a href="https://a7medras.github.io/entertainment-site/index.html" target="_blank">ترفيه</a>
+<a href="كود الدعوة.html">كود الدعوة</a>
+<a href="ألعاب.html">ألعاب</a>
+</nav>
+<div class="controls">
+<button onclick="toggleDarkMode()">🌓 الوضع</button>
+<button onclick="toggleLanguage()">🌐 اللغة</button>
+</div>
+<script>
         let currentLang = 'ar';
         function toggleDarkMode() {
             document.body.classList.toggle("dark-mode");
@@ -96,8 +97,8 @@
                 title.innerText = "Theeb Foundation";
                 links.innerHTML = `
                     <a href="#">Home</a><a href="#">Broadcaster Guide</a>
-                    <a href="#">Promotions</a><a href="#">Invoices</a>
-                    <a href="#">Events</a><a href="https://a7medras.github.io/entertainment-site/index.html" target="_blank">Entertainment</a>
+                    <a href="coming-soon.html">Promotions</a><a href="coming-soon.html">Invoices</a>
+                    <a href="coming-soon.html">Events</a><a href="https://a7medras.github.io/entertainment-site/index.html" target="_blank">Entertainment</a>
                     <a href="#">Invite Code</a><a href="#">Games</a>`;
             } else {
                 currentLang = 'ar';
